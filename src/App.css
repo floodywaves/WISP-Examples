@@ -14,7 +14,11 @@
 }
 
 .App-header {
+<<<<<<< HEAD
   background-color: #282c34;
+=======
+  background-color: pink;
+>>>>>>> 0a59abb43089a68d6a20f36c8079330a768ce985
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,8 +40,16 @@
     transform: rotate(360deg);
   }
 }
+<<<<<<< HEAD
 .note{
   color: white;
   display: block;
 
+=======
+
+.note{
+  display: inline-block;
+  padding: 1rem;
+  justify-content:space-evenly;
+>>>>>>> 0a59abb43089a68d6a20f36c8079330a768ce985
 }

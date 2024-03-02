@@ -1,0 +1,16 @@
+Use class component if you need to maintain internal state
+ex.
+    Class Welconme extends React.Components{
+        render(){
+            return<h1>Hello, {this.prop.name}</h1>;
+        }
+    }
+Use functional component if not (but can maintain state with hook)
+    function Welcome(props){
+        return <h1>Hello,{props.name}</h1>
+         
+    }
+
+each card have own 
+
+Lifting state -> the parent component will keep the state of card and pass cards as prop to card editor and card viewer

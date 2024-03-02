@@ -1,9 +1,15 @@
 import React, { useState } from 'react';
 import './App.css';
 
+<<<<<<< HEAD
 // functional component version of Note
 
 const Note2 = (props) => {
+=======
+
+
+const Note = (props) => {
+>>>>>>> 0a59abb43089a68d6a20f36c8079330a768ce985
     // state variable boolean "editing"
     const [editing, setEditing] = useState(false);
 
@@ -58,4 +64,8 @@ const Note2 = (props) => {
     
 }
 
+<<<<<<< HEAD
 export default Note2;
+=======
+export default Note;
+>>>>>>> 0a59abb43089a68d6a20f36c8079330a768ce985
